@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "896555554788",
+    "project_id": "ez-xpert",
+    "storage_bucket": "ez-xpert.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896555554788:android:3b35663ab63c10544b99f1",
+        "android_client_info": {
+          "package_name": "com.ezxpert.ez_xpert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896555554788-in10ckcvvc804gq13b95u3i2sv10kdhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFmGybty2U6H5kyQEWLxMfGZRQxK0sF-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896555554788-in10ckcvvc804gq13b95u3i2sv10kdhm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "896555554788-stsqol8ofibunp20ous1kfvh4670r9do.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ezxpert.ez-xpert1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896555554788:android:e8507e6d504abffa4b99f1",
+        "android_client_info": {
+          "package_name": "com.ezxpert.ez_xpert1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896555554788-in10ckcvvc804gq13b95u3i2sv10kdhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFmGybty2U6H5kyQEWLxMfGZRQxK0sF-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896555554788-in10ckcvvc804gq13b95u3i2sv10kdhm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "896555554788-stsqol8ofibunp20ous1kfvh4670r9do.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ezxpert.ez-xpert1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

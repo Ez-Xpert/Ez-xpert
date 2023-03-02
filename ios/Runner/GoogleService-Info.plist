@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>896555554788-u8vevke2stuk3qg5g0c9qpdqo1b9ta2i.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.896555554788-u8vevke2stuk3qg5g0c9qpdqo1b9ta2i</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBtDlvo0C8wkNZTu4UlE3Z0R1W5zbwnVb4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>896555554788</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ezxpert.ez-xpert</string>
+	<key>PROJECT_ID</key>
+	<string>ez-xpert</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ez-xpert.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:896555554788:ios:f69c11d64b9e049d4b99f1</string>
+</dict>
+</plist>
