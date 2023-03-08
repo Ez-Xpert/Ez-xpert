@@ -211,11 +211,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       _currentPage != _numPages - 1
                           ? GestureDetector(
                               onTap: () {
-                                Navigator.pushReplacement(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (context) =>
-                                            const LoginScreen()));
+                                // Navigator.pushReplacement(
+                                //     context,
+                                //     MaterialPageRoute(
+                                //         builder: (context) =>
+                                //             const LoginScreen()));
                               },
                               child: Container(
                                 padding: const EdgeInsets.only(bottom: 5),
@@ -261,11 +261,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       _currentPage == _numPages - 1
                           ? GestureDetector(
                               onTap: () {
-                                Navigator.pushReplacement(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (context) =>
-                                            const LoginScreen()));
+                                // Navigator.pushReplacement(
+                                //     context,
+                                //     MaterialPageRoute(
+                                //         builder: (context) =>
+                                //             const LoginScreen()));
                               },
                               child: Container(
                                 width: MediaQuery.of(context).size.width - 100,

@@ -72,9 +72,9 @@ class ApiClient {
             try {
               final prefs = locator<SharedPrefs>();
               prefs.removeAll();
-              Navigator.of(MyApp.context).pushAndRemoveUntil(
-                  MaterialPageRoute(builder: (_) => const LoginScreen()),
-                  (route) => false);
+              // Navigator.of(MyApp.context).pushAndRemoveUntil(
+              //     MaterialPageRoute(builder: (_) => const LoginScreen()),
+              //     (route) => false);
             } catch (e) {
               log("error Logout", error: e);
             }

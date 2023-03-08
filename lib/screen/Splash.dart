@@ -10,31 +10,33 @@ import '../utils/share_prefs.dart';
 import 'auth/login/login_screen.dart';
 import 'home_main/home_page.dart';
 
-class Splash extends StatefulWidget{
+class Splash extends StatefulWidget {
   @override
   State<Splash> createState() => _SplashState();
 }
 
 class _SplashState extends State<Splash> {
-
   @override
   void initState() {
     get();
     super.initState();
   }
-  get()async{
+
+  get() async {
     await locator<SharedPrefs>().init();
-    Timer(const Duration(seconds: 5), ()=> {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder:
-        (context) => locator<SharedPrefs>().isLogin ? const HomePageMain():
-        locator<SharedPrefs>().isFirstTIme ? const LoginScreen() : OnboardingScreen())
-      )
-    });
+    Timer(
+        const Duration(seconds: 5),
+        () => {
+              // Navigator.pushReplacement(context, MaterialPageRoute(builder:
+              //   (context) => locator<SharedPrefs>().isLogin ? const HomePageMain():
+              //   locator<SharedPrefs>().isFirstTIme ? const LoginScreen() : OnboardingScreen())
+              // )
+            });
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       body: AnnotatedRegion<SystemUiOverlayStyle>(
         value: SystemUiOverlayStyle.dark,
         child: Container(
@@ -44,14 +46,18 @@ class _SplashState extends State<Splash> {
               end: Alignment.bottomCenter,
               stops: [0.1, 0.4, 0.7, 0.9],
               colors: [
-                Color(0xFFFFFFFF),Color(0xFFFFFFFF),Color(0xFFFFFFFF),Color(0xFFFFFFFF),],
+                Color(0xFFFFFFFF),
+                Color(0xFFFFFFFF),
+                Color(0xFFFFFFFF),
+                Color(0xFFFFFFFF),
+              ],
             ),
           ),
           child: Container(
             height: double.infinity,
             width: double.infinity,
             child: Container(
-              margin: EdgeInsets.symmetric(vertical: 150,horizontal: 80),
+              margin: EdgeInsets.symmetric(vertical: 150, horizontal: 80),
               child: Center(
                 child: Image.asset(
                   "assets/splash.png",
