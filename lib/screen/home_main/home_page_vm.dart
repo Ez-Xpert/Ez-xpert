@@ -47,7 +47,7 @@ class HomePageMainVM extends BaseViewModel {
       // case 1:
       //   return const CheckInOut();
       case 1:
-        // title = 'Jobs';
+        title = 'Jobs';
         return const NewTimeSheet();
 
       case 2:
